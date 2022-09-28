@@ -108,13 +108,13 @@ section {
 
 #patient-btn {
     position: relative;
-    left: 38%;
+    left: 45%;
     padding-bottom: 30px;
 }
 
 #staff-btn {
     position: relative;
-    left: 39%;
+    left: 5%;
 }
 
 /* ======================================
@@ -256,7 +256,7 @@ ul.navbar-nav > li > a {
 ul.navbar-nav > li > a:hover,
 ul.navbar-nav > li > a:focus {
     background: none;
-    color: #f4c613;
+    color: #000;
 }
 /* ======================================
 |   |   |  Animation
