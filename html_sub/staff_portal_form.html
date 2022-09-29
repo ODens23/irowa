@@ -64,20 +64,20 @@
                     <div class="navbar-header">
 
                         <!--- Logo -->
-                        <a class="navbar-brand smooth-scroll" href="#home">
+                        <a class="navbar-brand smooth-scroll" href="../index.html">
                             <img src="../img/logo/logo.png" alt="logo">
                         </a>
                     </div>
 
                     <!--- Main Menu -->
-                    <div class="container">
+                    <!--div class="container">
                         <div class="collapse navbar-collapse">
                             <ul class="nav navbar-nav pull-right">
-                                <li><a class="smooth-scroll" href="#contact">Contact</a></li>
+                                <li><a class="smooth-scroll" href="#contact-right">Contact</a></li>
                                 <li><a class="smooth-scroll" href="#Donate">Make A Donate</a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div-->
                 </div>
             </div>
         </nav>
@@ -99,11 +99,39 @@
                 <div class="container">                    
                     <div class="row">
                     
+                        <!--Left section is empty to show background image -->
+                        <div class="col-md-6 col-sm-6">
+                            <div id="staff-btn"></div>
+                        </div>
+
                         <!-- Right staff login portal -->
                         <div class="col-md-6 col-sm-6">
-                            <div id="staff-btn">
-                                <a class="btn btn-general2 btn-yellow btn-lg" href="#services" title="Staff Portal"
-                                role="button">STAFF PORTAL</a>  
+                            <div id="staff-login">
+                                
+                                <form class="px-4 py-3">
+                                    <div class="mb-3">
+                                        <label for="exampleDropdownFormEmail1" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleDropdownFormPassword1" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                                    </div>
+                                    <div class="mb-3">
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                                        <label class="form-check-label" for="dropdownCheck">
+                                            Remember me
+                                        </label>
+                                        </div>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-general btn-yellow" title="Sign in">Sign in</button>
+                                </form>
+                                
+                                <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">New around here? Sign up</a>
+                                    <a class="dropdown-item" href="#">Forgot password?</a>
                             </div>
                         </div>
                     </div>
@@ -114,61 +142,6 @@
 
     </section>
     <!--- PATIENT SECTION ENDS -->
-
-                        <!--- Contact Right-->
-                        <div id="contact-right">
-                            <form>
-                                <h4>ONLINE CONTACT FORM</h4>
-                                <p><strong>Please Note:</strong> We are unable to provide Medical advice or answer
-                                    individual questions about medical treatment through website contact forms.
-                                    For Medical advices and professional treatment, you should see the
-                                    doctor.<br><br>For patients who live overseas kindly reference on the contact form.
-                                </p>
-                                <br><br>
-
-                                <div class="row">
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" id="email"
-                                                placeholder="Email Address">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="Phone_Number"
-                                                placeholder="Phone Number">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="Subject" placeholder="Subject">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <textarea class="form-control" id="message" placeholder="Message"></textarea>
-                                </div>
-                                <div id="submit-btn">
-                                    <a class="btn btn-general btn-yellow" href="#services" title="Submit form"
-                                        role="button">Submit form</a>
-                                </div>
-                            </form>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <!--- CONTACT SECTION ENDS HERE -->
 
     <!--- FOOTER SECTION -->
     <footer class="text-center">
@@ -183,10 +156,10 @@
         </div>
 
         <!--- BACK TO TOP -->
-        <a href="#home" id="back-to-top" class="btn btn-sm btn-yellow btn-back-to-top smooth-scrol hidden-sm"
+        <!--a href="#home" id="back-to-top" class="btn btn-sm btn-yellow btn-back-to-top smooth-scrol hidden-sm"
             title="Home" role="button">
             <i class="fa fa-angle-up"></i>
-        </a>
+        </a-->
         <!-- BACK TO TOP ENDS HERE-->
 
     </footer>

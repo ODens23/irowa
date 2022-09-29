@@ -106,29 +106,9 @@ section {
     z-index: -1;
 }
 
-#patient-btn {
-    position: relative;
-    left: 45%;
-    padding-bottom: 30px;
-}
-
-#staff-btn {
-    position: relative;
-    left: 5%;
-}
-
 /* ======================================
 |   |   |   Buttons
 ========================================*/
-.btn-general2 {
-    font-family: "Raleway", sans-serif;
-    font-size: 25px;
-    text-transform: uppercase;
-    margin: 0, 4px;
-    padding: 9px 35px 9px 35px;
-    -webkit-transition: all .5s;
-    transition: all .5s;
-}
 .btn-general {
     font-family: "Raleway", sans-serif;
     border-radius: 28px;
@@ -151,15 +131,6 @@ section {
     color: #fff;
     background-color: #000;
     border: 1px solid #000;
-}
-
-.btn-back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    padding: 3px 15px;
-    border-radius: 4px;
-    font-size: 22px;
 }
 
 /* ======================================
@@ -237,27 +208,6 @@ footer p span {
     color: #f4c613;
 }
 
-/* ======================================
-|   |   |  Navigation
-========================================= */
-.navbar {
-    padding: 5px 0;
-}
-.site-nav-wrapper {
-    padding: 0 15px;
-}
-ul.navbar-nav > li > a {
-    font-family: "Raleway", sans-serif;
-    color: #000;
-    font-size: 13px;
-    font-weight: 400;
-    text-transform: uppercase;
-}
-ul.navbar-nav > li > a:hover,
-ul.navbar-nav > li > a:focus {
-    background: none;
-    color: #ffff;
-}
 /* ======================================
 |   |   |  Animation
 ========================================= */
