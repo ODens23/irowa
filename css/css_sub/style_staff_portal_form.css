@@ -97,7 +97,7 @@ section {
 }
 
 #hospital-overlay {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.1);
     width: 100%;
     height: 100%;
     position: fixed;
@@ -147,38 +147,15 @@ section {
 /* ======================================
 |   |   |  Contact
 ========================================= */
-/*Contact Left*/
-#contact-left p {
-    margin: 10px 0 10px 0;
-    font-size: 14px;
-}
-ul.office-details {
-    list-style: none;
-    padding: 0;
-}
-ul.office-details li {
-    font-family: "open sans", "sans-serif";
-    margin-top: 12px;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    font-size: 13px;
-}
-ul.office-details li i {
-    font-size: 20px;
-    width: 35px;
-}
-
-/*Contact Right*/
-#contact-right {
+/*Login right*/
+#staff-login {
+    background: #fff;
     padding: 20px;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-    border-radius: 6px;
+    border-radius: 20px;
 }
-#contact-right h4 {
-    font-size: 24px;
-}
+
 #contact-right p {
     margin-bottom: 10px;
 }
