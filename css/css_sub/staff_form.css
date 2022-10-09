@@ -76,10 +76,6 @@ section {
 /* ======================================
 |   |   |   Home
 ========================================= */
-#hospital {
-    background: none;
-    height: 100%;
-}
 
 #hospital-bg-pic {
     position: fixed;
@@ -140,8 +136,12 @@ section {
     padding-top: 20px;
 }
 
-#form-content {
-    margin-bottom: 10px;
+#form {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 /* ======================================
@@ -163,8 +163,8 @@ section {
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    margin-bottom: 20px; 
 }
-
 
 #contact-right form .form-control {
     font-family: "Open sans", "Sans Serif";
