@@ -166,14 +166,18 @@ section {
     margin-bottom: 20px; 
 }
 
-#contact-right form .form-control {
-    font-family: "Open sans", "Sans Serif";
-    padding: 10px 15px;
-    font-size: 12px;
-    line-height: 24px;
+.staff-form3 {
+    background: #fff;
+    padding: 10px;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px; 
 }
-#contact-right form textarea.form-control {
-    min-height: 150px;
+
+.staff-form1 .address p {
+    font-size: 12px;
+    line-height: 19px;
 }
 
 /* ======================================
