@@ -117,7 +117,7 @@
                             </div>
     
                             <!-- Patient data section - PERSONAL -->
-                            <div class="staff-form2">
+                            <div class="patient-form2">
                                 <h4><strong>PATIENT PERSONAL DATA</strong></h4>
                                 <div class="row">
                                     <div class="col-md-6 col-sm-6">
@@ -143,14 +143,14 @@
                                     </div>
                                     <div class="col-md-6 col-sm-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" value="ED/R/M/C/293/2009" id="hospital_registration_number" disabled readonly>
+                                            <input type="number" class="form-control" id="phone_number" placeholder="Phone Number">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6 col-sm-6">
                                         <div class="form-group">
-                                            <input list="datalistLicense" class="form-control" id="License" placeholder="License/Identification">
+                                            <input list="datalistLicense" class="form-control" id="Identification" placeholder="Identification">
                                             <datalist id="datalistLicense">
                                                 <option value="National Identification Number (NIN)">
                                                 <option value="International Passport">
@@ -172,29 +172,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="biling_type"
-                                                placeholder="Biling Type">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="form-group">
-                                            <input list="datalistPatient" class="form-control" id="patient_type"
-                                                placeholder="Patient Type">
-                                            <datalist id="datalistPatient">
-                                                <option value="Private Patient">
-                                                <option value="Company Patient">
-                                            </datalist>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Patient data section -->
-                            <div class="staff-form2">
-                                <h4><strong>CONTACT INFORMATION</strong></h4>
                                 <div class="row">
                                     <div class="col-md-6 col-sm-6">
                                         <div class="form-group">
@@ -241,140 +218,8 @@
                                                 placeholder="Contact Email">
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="form-group">
-                                            <input type="number" class="form-control" id="phone_number"
-                                                placeholder="Phone Number">
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
-
-                            <!-- Occupation, and Stats Information -->
-                            <div class="staff-form3">
-                                <h4><strong>SOCIAL INFORMATION</strong></h4>
-                                <div class="row">
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="occupation_information" placeholder="Occupation/Profession">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="organisation"
-                                                placeholder="Organisation">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="address"
-                                                placeholder="Address">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="country" placeholder="Country">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="state"
-                                                placeholder="State">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="city" placeholder="City">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--Guardian's Information-->
-                                <strong>Guardian's Information</strong>
-                                <div class="row">
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="name" placeholder="Surname                          First name                          Middle name">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="form-group">
-                                            <input list="datalistSex" class="form-control" id="Sex"
-                                                placeholder="Sex">
-                                                <datalist id="datalistSex">
-                                                    <option value="Female">
-                                                    <option value="Male">
-                                                </datalist>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="address"
-                                                placeholder="Address">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="country" placeholder="Country">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="state"
-                                                placeholder="State">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="city" placeholder="City">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="form-group">
-                                            <input list="datalistRelationship" class="form-control" id="relationship"
-                                                placeholder="Relationship">
-                                                <datalist id="datalistRelationship">
-                                                    <option value="Father">
-                                                    <option value="Mother">
-                                                    <option value="Son">
-                                                    <option value="Daughter">
-                                                    <option value="Uncle">
-                                                    <option value="Aunty">
-                                                    <option value="Grand parent">
-                                                </datalist>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="contact_email"
-                                                placeholder="Contact Email">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="form-group">
-                                            <input type="number" class="form-control" id="phone_number"
-                                                placeholder="Phone Number">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="form-group">
-                                            <input type="number" class="form-control" id="work_phone"
-                                                placeholder="Work Number">
-                                        </div>
-                                    </div>
-                                </div>
                                 <div id="submit-btn">
                                     <a class="btn btn-general btn-yellow" href="#services" title="Submit form"
                                         role="button">Submit form</a>
@@ -401,13 +246,6 @@
                 </div>
             </div>
         </div>
-
-        <!--- BACK TO TOP -->
-        <a href="#home" id="back-to-top" class="btn btn-sm btn-yellow btn-back-to-top smooth-scrol hidden-sm"
-            title="Home" role="button">
-            <i class="fa fa-angle-up"></i>
-        </a>
-        <!-- BACK TO TOP ENDS HERE-->
 
     </footer>
     <!--- FOOTER SECTION ENDS HERE -->

@@ -157,7 +157,7 @@ section {
     border-radius: 10px;
     margin-bottom: 20px; 
 }
-.staff-form2 {
+.patient-form2 {
     background: #fff;
     padding: 10px;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
@@ -166,16 +166,7 @@ section {
     margin-bottom: 20px; 
 }
 
-.staff-form3 {
-    background: #fff;
-    padding: 10px;
-    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    margin-bottom: 20px; 
-}
-
-.staff-form1 .address p {
+.patient-form1 .address p {
     font-size: 12px;
     line-height: 19px;
 }
