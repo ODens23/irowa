@@ -337,6 +337,22 @@ section {
     margin: 0 auto;
 }
 
+#about-bottom-vd {
+    margin-top: 10px;
+}
+
+#about-bottom-vd source {
+    margin: 0 auto;
+}
+
+#about-bg-video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background: url("../Video/picture.jpg") no-repeat;
+}
+
 /* ======================================
 |   |   |   About 2
 ========================================= */
@@ -515,7 +531,7 @@ ul.social-list li:nth-child(2) a:hover {
 |   |   |   Statment Section
 ========================================= */
 #statement {
-    background: url("../img/tech/Pic-services.jpg");
+    background: url("../img/tech/irowa_mid.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -539,7 +555,7 @@ ul.social-list li:nth-child(2) a:hover {
 }
 
 .service .icon {
-    font-size: 45px;
+    font-size: 25px;
     margin: 0;
     -webkit-transition: all 400ms linear;
     transition: all 400ms linear;
@@ -563,12 +579,8 @@ ul.social-list li:nth-child(2) a:hover {
 }
 
 .service h4 {
-    font-size: 24px;
+    font-size: 20px;
     margin: 0 0 8px 0;
-}
-
-.service p {
-    line-height: normal;
 }
 
 /* ======================================
