@@ -76,12 +76,12 @@ section {
 /* ======================================
 |   |   |   Home
 ========================================= */
-#bill {
+#immz {
     background: none;
     height: 100%;
 }
 
-#bill-bg-pic {
+#immz-bg-pic {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -92,11 +92,11 @@ section {
     width: auto;
     height: auto;
     z-index: -1;
-    background: url("../img2/background/irowa-services.jpg") no-repeat;
+    background: url("../img2/background/immunization_centre.png") no-repeat;
     background-size: cover;
 }
 
-#bill-overlay {
+#immz-overlay {
     background-color: rgba(0, 0, 0, 0.3);
     width: 100%;
     height: 100%;
@@ -106,11 +106,11 @@ section {
     z-index: -1;
 }
 
-#bill-content .col-md-4 {
+#immz-content .col-md-4 {
     padding-right: 0;
 }
 
-#bill-content .col-md-8 {
+#immz-content .col-md-8 {
     padding-left: 0;
 }
 
