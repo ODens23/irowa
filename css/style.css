@@ -339,6 +339,9 @@ section {
 
 #about-bottom-vd {
     margin-top: 10px;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
 }
 
 #about-bottom-vd source {
@@ -348,8 +351,8 @@ section {
 #about-bg-video {
     min-width: 100%;
     min-height: 100%;
-    width: auto;
-    height: auto;
+    width: 400px;
+    height: 400px;
     background: url("../Video/picture.jpg") no-repeat;
 }
 
@@ -531,7 +534,7 @@ ul.social-list li:nth-child(2) a:hover {
 |   |   |   Statment Section
 ========================================= */
 #statement {
-    background: url("../img/tech/irowa_mid.png");
+    background: url("../img/tech/irowa_mid.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -541,6 +544,7 @@ ul.social-list li:nth-child(2) a:hover {
 /* ======================================
 |   |   |   Service Section
 ========================================= */
+
 #service-01 img {
     margin: 10px 0;
 }
@@ -552,6 +556,9 @@ ul.social-list li:nth-child(2) a:hover {
 
 .service {
     margin: 15px 0;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
 }
 
 .service .icon {
@@ -567,20 +574,9 @@ ul.social-list li:nth-child(2) a:hover {
     transform: translateX(-20px);
 }
 
-.service h5 {
-    font-size: 12px;
-    color: #f4c613;
-    text-transform: uppercase;
-    margin: 0 0 6px 0;
-}
-
-.service:hover h5 {
-    color: #212226;
-}
-
 .service h4 {
     font-size: 20px;
-    margin: 0 0 8px 0;
+    margin: 5px 0 5px 0;
 }
 
 /* ======================================
