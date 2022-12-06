@@ -114,21 +114,6 @@ section {
     height: 100%;
 }
 
-#family-bg-pic {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -1;
-    background: url("../img2/background/immunization_centre.png") no-repeat;
-    background-size: cover;
-}
-
 #family-overlay {
     background-color: rgba(0, 0, 0, 0.3);
     width: 100%;
