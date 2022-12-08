@@ -893,10 +893,13 @@ footer p span {
 |   |   |  Navigation
 ========================================= */
 .navbar {
-    padding: 5px 0;
+    padding: 10px 0;
 }
 .site-nav-wrapper {
-    padding: 0 15px;
+    padding: 0 10px;
+}
+.navbar-brand {
+    padding: 10px 0;
 }
 ul.navbar-nav > li > a {
     font-family: "Raleway", sans-serif;
@@ -910,6 +913,19 @@ ul.navbar-nav > li > a:focus {
     background: none;
     color: #f4c613;
 }
+/*White Navigation*/
+.white-nav-top {
+    background:#fff;
+    padding: 10px o;
+    -webkit-box-shadow: 0 8px 6px -9px #999;
+    box-shadow: 0 8px 6px -9px #999;
+    z-index: 2;
+}
+.white-nav-top ul.navbar-nav > li > a {
+    color: #000;
+}
+
+
 /* ======================================
 |   |   |  Animation
 ========================================= */
@@ -947,38 +963,3 @@ ul.navbar-nav > li > a:focus {
     -webkit-animation-delay: 0.9s;
     animation-delay: 0.9s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ======================================
-|   |   |  Mobile Menu
-========================================= */
-/*.navbar-header {
-    position: relative;
-}
-
-/*#mobile-nav-open-btn {
-    font-size: 30px;
-    color: #f4c613;
-    cursor: pointer;
-    z-index: 2;
-    position: absolute;
-    right: 0px;
-    top: 4px;
-    /*Hide mobile nav open button*/
-    /*display: none;
-}*/
-/*========================================*/

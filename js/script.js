@@ -154,3 +154,20 @@ $(window).on('load', function() {
     $("#arrow-down i").addClass("animated fadeInDown infinite");
 
 });
+
+/* ======================================
+|   |   |   Mobile Menu
+========================================= */
+$(function () {
+
+    //Show mobile view
+    $("#mobile-nav-open-btn").click(function() {
+        $("#mobile-nav").css("height", "100%");
+    });
+
+    //Hide mobile view
+    $("#mobile-nav-close-btn, #mobile-nav a").click(function() {
+        $("#mobile-nav").css("height", "0%");
+    });
+
+});
