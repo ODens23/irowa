@@ -117,6 +117,29 @@ $(window).on('load', function() {
 
 });
 /* ======================================
+|   |   |   Navigation
+========================================= */
+$ (function () {
+
+    $(window).scroll(function(){
+
+        if($(window).scrollTop() >50) {
+
+            //Show white nav
+            $("nav").addClass("white-nav-top");
+
+        } else {
+
+            //Hide white nav
+            $("nav").removeClass("white-nav-top");
+        }
+
+    });
+
+
+}); 
+
+/* ======================================
 |   |   |   Smooth scroll
 ========================================= */
 $(function ()  {
