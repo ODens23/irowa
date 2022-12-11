@@ -92,7 +92,7 @@ section {
     width: auto;
     height: auto;
     z-index: -1;
-    background: url("../Video/picture.jpg") no-repeat;
+    background: url("../video/irowa_home_background.png") no-repeat;
     background-size: cover;
 }
 
@@ -353,7 +353,7 @@ section {
     min-height: 100%;
     width: 400px;
     height: 400px;
-    background: url("../Video/picture.jpg") no-repeat;
+    background: url("#") no-repeat;
 }
 
 /* ======================================
