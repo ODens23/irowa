@@ -344,16 +344,14 @@ section {
     border-radius: 10px;
 }
 
-#about-bottom-vd source {
+#about-bottom-vd iframe {
     margin: 0 auto;
-}
-
-#about-bg-video {
     min-width: 100%;
     min-height: 100%;
     width: 400px;
     height: 400px;
-    background: url("#") no-repeat;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 /* ======================================
