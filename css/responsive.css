@@ -6,13 +6,13 @@
 }
 
 #mobile-nav-open-btn {
-    font-size: 30px;
+    font-size: 50px;
     color: #f4c613;
     cursor: pointer;
     z-index: 2;
     position: absolute;
-    left: 890px;
-    top: 4px;
+    left: 860px;
+    top: 2px;
     
     /*Hide mobile nav open button*/
     display: none;
@@ -33,13 +33,13 @@
 }
 #mobile-nav-close-btn {
     font-family: "Raleway", serif;
-    font-size: 70px;
+    font-size: 100px;
     color: #212226;
     font-weight: 400;
     cursor: pointer;
     position: absolute;
     top: -9px;
-    right: 13px;
+    right: 30px;
     -webkit-transition: .3s;
     transition: .3s;
 }
@@ -55,7 +55,7 @@
 }
 #mobile-nav a {
     font-family: "Raleway", serif;
-    font-size: 18px;
+    font-size: 30px;
     color: #212226;
     font-weight: 400;
     text-transform: uppercase;
@@ -154,6 +154,14 @@
 
 /* Small Device (Portable tablets and Small Laptops) */
 @media (min-width: 768px) and (max-width: 991px) {
+
+    .navbar-brand {
+        padding: 10px 10px;
+    }
+    .navbar-brand img {
+        width: 150px;
+        height: 38px;
+    }
 
     /*Hide Navigation menu for smalller devices to allow Mobile menu drop down button*/
     .navbar-nav {
