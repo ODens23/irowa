@@ -202,6 +202,7 @@
     .all-navigation p {
         font-size: 24px;
         margin-top: 30px;
+        font-weight: 300;
     }
 
     .left-section a {
@@ -228,7 +229,11 @@
 
     /* Generic Vertical sections*/
     .vertical-heading h2 {
-        font-size: 18px;
+        font-size: 25px;
+    }
+    #about-right p {
+        font-size: 15px;
+        line-height: 28px;
     }
 
     /*Services section - Left*/
