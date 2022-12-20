@@ -155,6 +155,7 @@
 /* Small Device (Portable tablets and Small Laptops) */
 @media (min-width: 768px) and (max-width: 991px) {
 
+    /*Navigation bar*/
     .navbar-brand {
         padding: 10px 10px;
     }
@@ -173,6 +174,21 @@
         display: block;
     }
 
+    /*Home section*/
+    #home-heading h1 {
+        font-size: 80px;
+        font-weight: 200;
+    }
+    
+    #home-heading h1 span {
+        font-weight: 300;
+    }
+    
+    #home-text p {
+        font-size: 18px;
+        font-weight: 100;
+    }
+
     /*Navigation bar*/
     .navbar {
         padding: 20px 0;
@@ -180,33 +196,37 @@
 
     /*All home navigation section*/
     .all-navigation i {
-        font-size: 30px;
+        font-size: 40px;
     }
     
     .all-navigation p {
-        font-size: 12px;
+        font-size: 15px;
         margin-top: 10px;
     }
 
     .left-section a {
-        height: 100px;
-        width: 150px;
+        height: 120px;
+        width: 160px;
         margin-left: 115px;
     }
     
     .centre-section a {
-        height: 100px;
-        width: 150px;
+        height: 120px;
+        width: 160px;
         margin-left: 60px;
     }
     
     .right-section a {
-        height: 100px;
-        width: 150px;
+        height: 120px;
+        width: 160px;
         margin-left: -35px;
     }
 
-    /* Generic Vertical sections */
+    #arrow-down {
+        font-size: 30px;
+    }
+
+    /* Generic Vertical sections*/
     .vertical-heading h2 {
         font-size: 18px;
     }
@@ -354,6 +374,7 @@
 
 }
 
+
 /* Extra small Device (Landscape phones and Portrait Tablets) */
 @media (max-width: 767px) {
 
@@ -365,6 +386,7 @@
 
 /* Extra small Device (Portrait phones and Smaller devices) */
 @media (max-width: 480px) {
+
 }
 
 /* Extra small Device (Landscape phones and Portrait Tablets) */
