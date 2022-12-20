@@ -196,34 +196,34 @@
 
     /*All home navigation section*/
     .all-navigation i {
-        font-size: 40px;
+        font-size: 55px;
     }
     
     .all-navigation p {
-        font-size: 15px;
-        margin-top: 10px;
+        font-size: 24px;
+        margin-top: 30px;
     }
 
     .left-section a {
-        height: 120px;
-        width: 160px;
-        margin-left: 115px;
+        height: 160px;
+        width: 200px;
+        margin-left: 30px;
     }
     
     .centre-section a {
-        height: 120px;
-        width: 160px;
-        margin-left: 60px;
+        height: 160px;
+        width: 200px;
+        margin-left: 15px;
     }
     
     .right-section a {
-        height: 120px;
-        width: 160px;
-        margin-left: -35px;
+        height: 160px;
+        width: 200px;
+        margin-left: -10px;
     }
 
     #arrow-down {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     /* Generic Vertical sections*/
