@@ -186,7 +186,7 @@
     
     #home-text p {
         font-size: 18px;
-        font-weight: 100;
+        font-weight: 250;
     }
 
     /*Navigation bar*/
@@ -200,7 +200,7 @@
     }
     
     .all-navigation p {
-        font-size: 24px;
+        font-size: 22px;
         margin-top: 30px;
         font-weight: 300;
     }
@@ -232,8 +232,8 @@
         font-size: 25px;
     }
     #about-right p {
-        font-size: 15px;
-        line-height: 28px;
+        font-size: 21px;
+        line-height: 38px;
     }
 
     /*Services section - Left*/
