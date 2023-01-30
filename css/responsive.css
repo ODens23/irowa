@@ -227,38 +227,136 @@
         font-size: 40px;
     }
 
+    #about-right p {
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    /*About section 2 - Mission, Vission and Values*/
+    #about-02 .col-md-4 {
+        height: 400px;
+        width: 800px;
+    }
+
+    .about-item {
+        padding: 50px 10px;
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .about-item i {
+        font-size: 30px;
+        margin: 0;
+    }
+    
+    .about-item h3 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .about-item p {
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+/* ======================================
+|   |   |   Team
+========================================= */
+#team .col-md-6 {
+    height: 400px;
+    width: 800px;
+}
+
+.col-md-6 p {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.team-member {
+    margin: 5px;
+    position: relative;
+}
+
+.team-member-info h6 {
+    font-size: 25px;
+}
+
+/* ======================================
+|   |   |   Social Icons
+========================================= */
+ul.social-list {
+    padding: 0;
+    margin-top: 50px;
+}
+
+ul.social-list li {
+    display: inline-block;
+    padding: 0;
+}
+
+ul.social-list li a {
+    border: 2px solid #fff;
+    width: 80px;
+    height: 80px;
+    line-height: 90px;
+    border-radius: 50%;
+    -webkit-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+
+ul.social-list li a i {
+    font-size: 30px;
+}
+
+/* ======================================
+|   |   |   Slider Buttons
+========================================= */
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+    display: none;
+}
+
     /* Generic Vertical sections*/
     .vertical-heading h2 {
         font-size: 25px;
     }
-    #about-right p {
-        font-size: 18px;
-        line-height: 34px;
-    }
 
-    /*Services section - Left*/
+/* ======================================
+|   |   |   Services section
+========================================= */
+
+#service-01 img {
+    margin: 10px 0;
+    height: 500px;
+    width: 800px;
+    padding-bottom: 120px;
+}
+
+#service-01 .col-md-7 {
+    height: 400px;
+    width: 700px;
+}
+
+/*Services section - Left*/
+#service-01 .col-md-5 {
+    height: 400px;
+    width: 700px;
+}
+
     .service {
         margin: 15px 0;
     }
         
     .service .icon {
-        font-size: 25px;
+        font-size: 30px;
     }
-        
-    .service h5 {
-        font-size: 9px;
-    }
-        
+
     .service h4 {
-        font-size: 12px;
-        margin-bottom: 3px;
+        font-size: 23px;
+        margin-top: 9px;
     }
-        
-    .service p {
-        font-size: 10px;
-        line-height: 10px;
-        margin: 0 0 5px;
-    }    
 
     /*Servie 02 Responsive tab*/
     #services-tabs .tab-bg {
