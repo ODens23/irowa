@@ -361,7 +361,7 @@ ul.social-list li a i {
     /*Servie 02 Responsive tab*/
     #services-tabs .tab-bg {
         padding: 22.5px 30px;
-        min-height: 100px;
+        min-height: 300px;
     }
 
     .service-tab h2 {
