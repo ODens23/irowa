@@ -266,11 +266,12 @@
 #team .col-md-6 {
     height: 400px;
     width: 800px;
+    margin-bottom: 50px;
 }
 
 .col-md-6 p {
     font-size: 24px;
-    line-height: 40px;
+    line-height: 50px;
 }
 
 .team-member {
@@ -281,6 +282,7 @@
 .team-member-info h6 {
     font-size: 25px;
 }
+
 
 /* ======================================
 |   |   |   Social Icons
@@ -345,102 +347,115 @@ ul.social-list li a i {
     width: 700px;
 }
 
-    .service {
-        margin: 15px 0;
-    }
+.service {
+    margin: 15px 0;
+}
         
-    .service .icon {
-        font-size: 30px;
-    }
+.service .icon {
+    font-size: 30px;
+}
 
-    .service h4 {
-        font-size: 23px;
-        margin-top: 9px;
-    }
+.service h4 {
+    font-size: 23px;
+    margin-top: 9px;
+}
 
-    /*Servie 02 Responsive tab*/
-    #services-tabs .tab-bg {
-        padding: 22.5px 30px;
-        min-height: 300px;
-    }
+/*Servie 02 Responsive tab*/
+#services-tabs ul li a {
+    font-size: 19px;
+}
 
-    .service-tab h2 {
-        font-size: 30px;
-        margin-bottom: 15px;
-    }
+.service-tab .col-md-6 {
+    height: 400px;
+    width: 750px;
+}
+
+.service-tab h2 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
         
-    .service-tab h3 {
-        font-size: 20px;
-        margin-bottom: 15px;
-    }
+.service-tab h3 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
         
-    .service-tab p {
-        line-height: 15px;
-        margin-bottom: 15px;
-        font-size: 10px;
-    }
+.service-tab p {
+    line-height: 30px;
+    margin-bottom: 35px;
+    font-size: 20px;
+}
 
-    /*Testimonials section*/
-    .testimonial h3 {
-        font-size: 15px;
-        line-height: 35px;
-        margin-top: 10px;
-    }
+/* ======================================
+|   |   |   Buttons
+========================================*/
+.btn-general {
+    font-size: 18px;
+}
 
-    .testimonial p {
-        font-size: 12px;
-        margin: 0;
-        margin-top: 5px;
-        margin-bottom: 10px;
-    }
+/*====================================*/
+
+/*Testimonials section*/
+.testimonial h3 {
+    font-size: 15px;
+    line-height: 35px;
+    margin-top: 10px;
+}
+
+.testimonial p {
+    font-size: 12px;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
         
-    .author .author-name-des {
-        width: 106px;
-        margin-top: 10px;
-        text-align: left;
-    }
+.author .author-name-des {
+    width: 106px;
+    margin-top: 10px;
+    text-align: left;
+}
         
-    .author .author-name-des p {
-        margin: 0 0 10px;
-    }
+.author .author-name-des p {
+    margin: 0 0 10px;
+}
 
-    .testimonial .row {
-        margin-bottom: 10px;
-    }
+.testimonial .row {
+    margin-bottom: 10px;
+}
 
-    /*Stats Section*/
-    .stats-item i {
-        font-size: 32px;
-        margin: 0 0 6px 0;
-    }
+/*Stats Section*/
+.stats-item i {
+    font-size: 32px;
+    margin: 0 0 6px 0;
+}
         
-    .stats-item h3 {
-        font-size: 25px;
-        margin: 5px 0 5px 0;
-    }
+.stats-item h3 {
+    font-size: 25px;
+    margin: 5px 0 5px 0;
+}
 
-    .stats-item p {
-        line-height: 15px;
-    }
+.stats-item p {
+    line-height: 15px;
+}
 
-    /*Blog Section*/
-    #blog-left p {
-        margin: 25px 0;
-    }
+/*Blog Section*/
+#blog-left p {
+    margin: 25px 0;
+}
     
-    #blog-btn a {
-        margin: 0;
-    }
+#blog-btn a {
+    margin: 0;
+}
         
-    .blog-post h4 {
-        line-height: 40px;
-        margin: 0;
-    }
-    .blog-post p {
-        line-height: 24px;
-        margin: 0;
-        font-weight: 300;
-    }
+.blog-post h4 {
+    line-height: 40px;
+    margin: 0;
+}
+.blog-post p {
+    line-height: 24px;
+    margin: 0;
+    font-weight: 300;
+}
 
     /*Contact Left*/
     .vertical-heading h2 {
