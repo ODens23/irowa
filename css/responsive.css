@@ -392,50 +392,56 @@ ul.social-list li a i {
 .btn-general {
     font-size: 15px;
 }
-
 /*====================================*/
 
 /*Testimonials section*/
+#testimonials .col-md-4 {
+    right: 100px;
+}
+
+#testimonial-slider {
+    height: 400px;
+    width: 700px;
+    right: 130px;
+}
+
 .testimonial h3 {
-    font-size: 15px;
-    line-height: 35px;
-    margin-top: 10px;
+    font-size: 30px;
 }
 
 .testimonial p {
-    font-size: 12px;
+    font-size: 21px;
     margin: 0;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
         
 .author .author-name-des {
-    width: 106px;
+    width: 400px;
     margin-top: 10px;
     text-align: left;
 }
-        
-.author .author-name-des p {
-    margin: 0 0 10px;
-}
-
-.testimonial .row {
-    margin-bottom: 10px;
-}
 
 /*Stats Section*/
+#stats .col-md-3 {
+    height: 200px;
+    width: 320px;
+    left: 90px;
+}
+
 .stats-item i {
-    font-size: 32px;
-    margin: 0 0 6px 0;
+    font-size: 40px;
+    margin: 0 0 10px 0;
 }
         
 .stats-item h3 {
-    font-size: 25px;
-    margin: 5px 0 5px 0;
+    font-size: 30px;
+    margin: 10px 0 10px 0;
 }
 
 .stats-item p {
     line-height: 15px;
+    font-size: 22px;
 }
 
 /*Blog Section*/
