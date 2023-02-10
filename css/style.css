@@ -245,8 +245,8 @@ section {
 
 .btn-yellow {
     color: #fff;
-    border: 1px solid #f4c613;
-    background-color: #f4c613;
+    border: 1px solid #fff;
+    background-color: #000;
 }
 
 .btn-yellow:hover,
@@ -683,8 +683,9 @@ ul.social-list li:nth-child(2) a:hover {
 .testimonial h3 {
     font-size: 25px;
     line-height: 35px;
-    color: #f4c613;
+    color: #fff;
     font-weight: 400;
+    background-color: #000;
 }
 
 .testimonial .stars {

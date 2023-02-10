@@ -56,8 +56,8 @@ $(function () {
 $(function () {
     $("#testimonial-slider").owlCarousel({
         items: 1,
-        autoplay: false,
-        smartSpeed: 700,
+        autoplay: true,
+        smartSpeed: 2000,
         loop: true,
         autoplayHoverPause: true,
         nav: true,
