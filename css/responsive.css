@@ -78,6 +78,7 @@
 
 /* Large Device (Desktop and Laptop) */
 @media (min-width: 1200px) {
+
 }
 
 /* Medium Device (Landscape tablets and Medium Laptops) */
@@ -406,14 +407,15 @@ ul.social-list li a i {
 }
 
 .testimonial h3 {
-    font-size: 28px;
+    font-size: 20px;
 }
 
 .testimonial p {
-    font-size: 21px;
+    font-size: 19px;
     margin: 0;
     margin-top: 15px;
     margin-bottom: 20px;
+    line-height: 30px;
 }
         
 .author .author-name-des {
@@ -483,64 +485,108 @@ ul.social-list li a i {
     font-size: 18px;
 }
 
-/*Contact Left*/
-#contact .content-box-md {
-    height: 1000px;
-    width: 500px;
-}
-
-#contact-left {
+/*Contact*/
+/*Contact Left, now up*/
+#contact-left .col-md-6 {
     height: 400px;
-    width: 900px;
+    width: 700px;
+    position: relative;
+    left: -60px;
 }
-
-#contact-right {
-    height: 400px;
-    width: 900px;
+#contact-left .vertical-heading h2 {
+    position: relative;
+    left: -60px;
+    margin-top: 70px;
 }
-
-.vertical-heading h2 {
-    padding-left: 10px;
+#contact-left p {
+    position: relative;
+    left: -60px;  
 }
 
 .office h4 {
-    font-size: 12px;
-    margin-bottom: 0;
-    padding-left: 10px;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 #contact-left p {
-    margin: 10px 0 0 0;
-    font-size: 10px;
-    padding-left: 10px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+ul.office-details li i {
+    font-size: 23px;
 }
 
 ul.office-details li {
-    font-size: 9.5px;
+    font-size: 25px;
     padding-left: 10px;
 }
 
-/*Contact Right*/
-#contact-right h4 {
-    font-size: 12px;
-}
-#contact-right p {
-    margin-bottom: 10px;
-}
-#contact-right form textarea.form-control {
-    min-height: 150px;
+.qrcode img {
+    width: 250px;
+    position: relative;
+    top: -400px;
+    left: 550px;
 }
 
+/*Contact right, now down*/
+#contact {
+    height: 1490px;
+}
+
+#contact-right {
+    height: 750px;
+    width: 900px;
+    position: relative;
+    top: 600px;
+    right: 460px; 
+}
+
+#contact-right h4 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+#contact-right p {
+    font-size: 23px;
+    margin-bottom: 20px;
+    text-align: justify;
+    line-height: 35px;
+}
+
+#contact-right form input.form-control {
+    font-size: 23px;
+    min-height: 50px;
+}
+
+#contact-right form textarea.form-control {
+    min-height: 200px;
+    font-size: 23px;
+}
+
+#submit-btn a {
+    margin: 0;
+    font-size: 18px;
+}
+
+/*Google Map*/
+#map {
+    height: 700px;
+}
+
+
+/*Footer*/
+footer p {
+    font-size: 19px;
+}
 }
 
 
 /* Extra small Device (Landscape phones and Portrait Tablets) */
 @media (max-width: 767px) {
 
-    /* Mobile Menu
-    #mobile-nav-open-btn {
-        display: block;
-    }*/
 }
 
 /* Extra small Device (Portrait phones and Smaller devices) */
