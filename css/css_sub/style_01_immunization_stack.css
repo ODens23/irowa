@@ -116,7 +116,7 @@ section {
 
 .left-pic img {
     width: 590px;
-    height: 270px;
+    height: 303px;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
@@ -140,11 +140,12 @@ section {
     font-size: 15px;
     margin: 40px 20px 20px 20px;
     text-align: justify;
+    line-height: 30px;
 }
 
-#bill-btn {
+/*#immz-btn {
     margin: 40px 10px 23px 20px;
-}
+}*/
 
 
 /* ======================================
@@ -294,41 +295,4 @@ ul.navbar-nav > li > a:hover,
 ul.navbar-nav > li > a:focus {
     background: none;
     color: #f4c613;
-}
-/* ======================================
-|   |   |  Animation
-========================================= */
-#home-heading-1,
-#home-heading-2,
-#home-text,
-.left-section,
-.centre-section,
-.right-section {
-    -webkit-animation-duration: 1.5s;
-    animation-duration: 1.5s;
-}
-
-#home-heading-1 {
-    -webkit-animation-delay: 0.2s;
-    animation-delay: 0.2s;
-}
-#home-heading-2 {
-    -webkit-animation-delay: 0.5s;
-    animation-delay: 0.5s;
-}
-#home-text {
-    -webkit-animation-delay: 0.5s;
-    animation-delay: 0.6s;
-}
-.left-section {
-    -webkit-animation-delay: 0.7s;
-    animation-delay: 0.7s;
-}
-.centre-section {
-    -webkit-animation-delay: 0.8s;
-    animation-delay: 0.8s;
-}
-.right-section {
-    -webkit-animation-delay: 0.9s;
-    animation-delay: 0.9s;
 }
