@@ -76,12 +76,12 @@ section {
 /* ======================================
 |   |   |   Home
 ========================================= */
-#immz {
+#lab {
     background: none;
     height: 100%;
 }
 
-#immz-bg-pic {
+#lab-bg-pic {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -96,7 +96,7 @@ section {
     background-size: cover;
 }
 
-#immz-overlay {
+#lab-overlay {
     background-color: rgba(0, 0, 0, 0.3);
     width: 100%;
     height: 100%;
@@ -106,11 +106,11 @@ section {
     z-index: -1;
 }
 
-#immz-content .col-md-4 {
+#lab-content .col-md-4 {
     padding-right: 0;
 }
 
-#immz-content .col-md-8 {
+#lab-content .col-md-8 {
     padding-left: 0;
 }
 
@@ -142,9 +142,9 @@ section {
     margin: 40px 20px 20px 20px;
 }
 
-#bill-btn {
+/*#bill-btn {
     margin: 40px 10px 23px 20px;
-}
+}*/
 
 
 /* ======================================
@@ -294,41 +294,4 @@ ul.navbar-nav > li > a:hover,
 ul.navbar-nav > li > a:focus {
     background: none;
     color: #f4c613;
-}
-/* ======================================
-|   |   |  Animation
-========================================= */
-#home-heading-1,
-#home-heading-2,
-#home-text,
-.left-section,
-.centre-section,
-.right-section {
-    -webkit-animation-duration: 1.5s;
-    animation-duration: 1.5s;
-}
-
-#home-heading-1 {
-    -webkit-animation-delay: 0.2s;
-    animation-delay: 0.2s;
-}
-#home-heading-2 {
-    -webkit-animation-delay: 0.5s;
-    animation-delay: 0.5s;
-}
-#home-text {
-    -webkit-animation-delay: 0.5s;
-    animation-delay: 0.6s;
-}
-.left-section {
-    -webkit-animation-delay: 0.7s;
-    animation-delay: 0.7s;
-}
-.centre-section {
-    -webkit-animation-delay: 0.8s;
-    animation-delay: 0.8s;
-}
-.right-section {
-    -webkit-animation-delay: 0.9s;
-    animation-delay: 0.9s;
 }

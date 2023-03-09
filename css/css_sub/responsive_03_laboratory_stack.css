@@ -9,250 +9,147 @@
 /* Medium Device (Landscape tablets and Medium Laptops) */
 @media (min-width: 992px) and (max-width: 1199px) {
 
-    /*All home navigation section*/
-    .all-navigation i {
-        font-size: 30px;
-    }
-    
-    .all-navigation p {
-        font-size: 12px;
-        margin-top: 10px;
+    .left-pic img {
+        width: 590px;
+        height: 285px;
+        -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
     }
 
-    .left-section a {
-        height: 100px;
-        width: 150px;
-    }
-    
-    .centre-section a {
-        height: 100px;
-        width: 150px;
-    }
-    
-    .right-section a {
-        height: 100px;
-        width: 150px;
-    }
-
-    /*Services section - Left*/
-    .service {
-        margin: 15px 0;
-    }
-    
-    .service .icon {
-        font-size: 35px;
-    }
-    
-    .service h5 {
-        font-size: 10px;
-    }
-    
-    .service h4 {
-        font-size: 18px;
-    }
-    
-    .service p {
-        font-size: 12px;
-        line-height: 15px;
-        margin: 0 0 5px;
-    }
-
-    /*Servie 02 Responsive tab*/
-    #services-tabs .tab-bg {
-        padding: 26.5px 30px;
-        min-height: 100px;
-    }
-    
-    .service-tab p {
+    .right-text p {
+        color: #000;
+        font-size: 15px;
+        margin: 40px 20px 20px 20px;
+        text-align: justify;
         line-height: 20px;
-        margin-bottom: 20px;
-    }
-    
-    /*Contact section*/
-    .col-md-6 {
-        padding-right: 1px;
     }
 
-    ul.office-details li {
-        font-size: 11.5px;
-    }
 }
 
 /* Small Device (Portable tablets and Small Laptops) */
 @media (min-width: 768px) and (max-width: 991px) {
 
-    /*All home navigation section*/
-    .all-navigation i {
-        font-size: 30px;
+    /*left, now top section*/
+    #lab-content .col-md-4 {
+        width: 900px;
     }
     
-    .all-navigation p {
-        font-size: 12px;
-        margin-top: 10px;
+    .left-pic img {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        top: 60px;
+        left: -10px;
+        -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
     }
-
-    .left-section a {
-        height: 100px;
-        width: 150px;
-        margin-left: 115px;
+        
+    /*right, now down side*/
+    #right-side {
+        position: relative;
+        height: 230px;
+        width: 800px;
+        top: 50px;
+        background: #fff;
+    }
+        
+    .right-text p {
+        color: #000;
+        font-size: 23px;
+        margin: 20px 20px 20px 20px;
+        text-align: justify;
+        line-height: 35px;
     }
     
-    .centre-section a {
-        height: 100px;
-        width: 150px;
-        margin-left: 60px;
+    /*Contact*/
+    /*Contact Left, now up*/
+    #contact-left .col-md-6 {
+        height: 400px;
+        width: 700px;
+        position: relative;
+        left: -60px;
+    }
+    #contact-left .vertical-heading h2 {
+        position: relative;
+        left: -60px;
+        margin-top: 70px;
+    }
+    #contact-left p {
+        position: relative;
+        left: -60px;  
     }
     
-    .right-section a {
-        height: 100px;
-        width: 150px;
-        margin-left: -35px;
+    .office h4 {
+        font-size: 28px;
+        text-transform: uppercase;
+        font-weight: 600;
     }
-
-    /* Generic Vertical sections */
-    .vertical-heading h2 {
+    
+    #contact-left p {
+        margin-top: 0;
+        margin-bottom: 50px;
+        font-size: 25px;
+    }
+    
+    ul.office-details li i {
+        font-size: 23px;
+    }
+    
+    ul.office-details li {
+        font-size: 25px;
+        padding-left: 10px;
+    }
+    
+    .qrcode img {
+        width: 250px;
+        position: relative;
+        top: -400px;
+        left: 600px;
+    }
+    
+    /*Contact right, now down*/
+    #contact {
+        height: 1490px;
+    }
+    
+    #contact-right {
+        height: 750px;
+        width: 900px;
+        position: relative;
+        top: 600px;
+        right: 460px; 
+    }
+    
+    #contact-right h4 {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+    
+    #contact-right p {
+        font-size: 23px;
+        margin-bottom: 20px;
+        text-align: justify;
+        line-height: 35px;
+    }
+    
+    #contact-right form input.form-control {
+        font-size: 23px;
+        min-height: 50px;
+    }
+    
+    #contact-right form textarea.form-control {
+        min-height: 200px;
+        font-size: 23px;
+    }
+    
+    #submit-btn a {
+        margin: 0;
         font-size: 18px;
     }
-
-    /*Services section - Left*/
-    .service {
-        margin: 15px 0;
-    }
-        
-    .service .icon {
-        font-size: 25px;
-    }
-        
-    .service h5 {
-        font-size: 9px;
-    }
-        
-    .service h4 {
-        font-size: 12px;
-        margin-bottom: 3px;
-    }
-        
-    .service p {
-        font-size: 10px;
-        line-height: 10px;
-        margin: 0 0 5px;
-    }    
-
-    /*Servie 02 Responsive tab*/
-    #services-tabs .tab-bg {
-        padding: 22.5px 30px;
-        min-height: 100px;
-    }
-
-    .service-tab h2 {
-        font-size: 30px;
-        margin-bottom: 15px;
-    }
-        
-    .service-tab h3 {
-        font-size: 20px;
-        margin-bottom: 15px;
-    }
-        
-    .service-tab p {
-        line-height: 15px;
-        margin-bottom: 15px;
-        font-size: 10px;
-    }
-
-    /*Testimonials section*/
-    .testimonial h3 {
-        font-size: 15px;
-        line-height: 35px;
-        margin-top: 10px;
-    }
-
-    .testimonial p {
-        font-size: 12px;
-        margin: 0;
-        margin-top: 5px;
-        margin-bottom: 10px;
-    }
-        
-    .author .author-name-des {
-        width: 106px;
-        margin-top: 10px;
-        text-align: left;
-    }
-        
-    .author .author-name-des p {
-        margin: 0 0 10px;
-    }
-
-    .testimonial .row {
-        margin-bottom: 10px;
-    }
-
-    /*Stats Section*/
-    .stats-item i {
-        font-size: 32px;
-        margin: 0 0 6px 0;
-    }
-        
-    .stats-item h3 {
-        font-size: 25px;
-        margin: 5px 0 5px 0;
-    }
-
-    .stats-item p {
-        line-height: 15px;
-    }
-
-    /*Blog Section*/
-    #blog-left p {
-        margin: 25px 0;
-    }
     
-    #blog-btn a {
-        margin: 0;
-    }
-        
-    .blog-post h4 {
-        line-height: 40px;
-        margin: 0;
-    }
-    .blog-post p {
-        line-height: 24px;
-        margin: 0;
-        font-weight: 300;
-    }
-
-    /*Contact Left*/
-    .vertical-heading h2 {
-        padding-left: 10px;
-    }
-
-    .office h4 {
-        font-size: 12px;
-        margin-bottom: 0;
-        padding-left: 10px;
-    }
-
-    #contact-left p {
-        margin: 10px 0 0 0;
-        font-size: 10px;
-        padding-left: 10px;
-    }
-
-    ul.office-details li {
-        font-size: 9.5px;
-        padding-left: 10px;
-    }
-
-    /*Contact Right*/
-    #contact-right h4 {
-        font-size: 12px;
-    }
-    #contact-right p {
-        margin-bottom: 10px;
-    }
-    #contact-right form textarea.form-control {
-        min-height: 150px;
+    /*Footer*/
+    footer p {
+        font-size: 19px;
     }
 
 }
