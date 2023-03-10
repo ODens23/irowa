@@ -1,3 +1,31 @@
+/* ======================================
+|   |   |  Mobile Menu
+========================================= */
+
+.navbar {
+    position: relative;
+    top: 25px;
+}
+
+.navbar-brand img {
+    position: relative;
+    left: 10px;
+    width: 150px;
+    height: 38px;
+}
+
+.collapse {
+    position: relative;
+    left: 100px;
+    top: 10px;
+}
+
+.collapse ul li a {
+    font-size: 18px;
+}
+
+
+
 /*==========================================
 |   |   Bootstrap 3 Media Queries
 ============================================*/
