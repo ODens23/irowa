@@ -97,7 +97,7 @@ section {
 }
 
 #home-overlay {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
     height: 100%;
     position: fixed;
@@ -252,8 +252,8 @@ section {
 .btn-yellow:hover,
 .btn-yellow:focus {
     color: #fff;
-    background-color: #212226;
-    border: 1px solid #212226;
+    background-color: #f4c613;
+    border: 1px solid #f4c613;
 }
 /*for three home navigations*/
 .btn-primary:hover,
@@ -879,6 +879,12 @@ ul.office-details li i {
     min-height: 150px;
 }
 
+.qrcode img {
+    width: 200px;
+    position: relative;
+    left: 50px;
+}
+
 /* ======================================
 |   |   |  Google Map
 ========================================= */
@@ -982,3 +988,32 @@ ul.navbar-nav > li > a:focus {
     -webkit-animation-delay: 0.9s;
     animation-delay: 0.9s;
 }
+
+
+/*===========================
+DROP DOWN SERVICES SECTION
+/* Style the button that is used to open and close the collapsible content
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover)
+.active, .collapsible:hover {
+    background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default
+.content .service-collapse {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}=============================*/

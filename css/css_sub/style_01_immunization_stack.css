@@ -282,13 +282,13 @@ footer p span {
     padding: 5px 0;
 }
 .site-nav-wrapper {
-    padding: 0 15px;
+    padding: 0 10px;
 }
+
 ul.navbar-nav > li > a {
     font-family: "Raleway", sans-serif;
     color:#fff;
-    font-size: 13px;
-    font-weight: 400;
+    font-size: 9px;
     text-transform: uppercase;
 }
 ul.navbar-nav > li > a:hover,
