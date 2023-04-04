@@ -432,6 +432,10 @@ section {
     min-height: 100px;
 }
 
+.team-text p {
+    text-align: justify;
+}
+
 .team-member {
     margin: 5px;
     position: relative;

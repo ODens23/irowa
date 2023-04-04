@@ -78,7 +78,7 @@ section {
 ========================================= */
 #immz {
     background: none;
-    height: 100%;
+    height: 1990px;
 }
 
 #immz-bg-pic {
@@ -106,12 +106,11 @@ section {
     z-index: -1;
 }
 
-#immz-content .col-md-4 {
-    padding-right: 0;
-}
-
 #immz-content .col-md-8 {
     padding-left: 0;
+    height: 900px;
+    right: 15px;
+    top: -30px;
 }
 
 .left-pic img {
@@ -130,8 +129,8 @@ section {
 
 .right-text h1 {
     color: #000;
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 48px;
+    font-weight: 200;
     margin: 50px 0 20px 20px;
 }
 
