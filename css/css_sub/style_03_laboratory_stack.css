@@ -78,7 +78,7 @@ section {
 ========================================= */
 #lab {
     background: none;
-    height: 1350px;
+    height: 1600px;
 }
 
 #lab-bg-pic {
@@ -106,20 +106,17 @@ section {
     z-index: -1;
 }
 
-#lab-content .col-md-4 {
-    padding-right: 0;
-}
-
 #lab-content .col-md-8 {
     padding-left: 0;
+    right: 15px;
+    top: -30px;
 }
 
 .left-pic img {
     width: 590px;
-    height: 270px;
+    height: 303px;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-    border-radius: 20px;
 }
 
 #right-side {
@@ -131,8 +128,8 @@ section {
 
 .right-text h1 {
     color: #000;
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 48px;
+    font-weight: 200;
     margin: 50px 0 20px 20px;
 }
 
@@ -140,6 +137,8 @@ section {
     color: #000;
     font-size: 15px;
     margin: 40px 20px 20px 20px;
+    text-align: justify;
+    line-height: 30px;
 }
 
 /*#bill-btn {
