@@ -37,7 +37,7 @@
 @media (min-width: 992px) and (max-width: 1199px) {
 
     #family {
-        height: 1250px;
+        height: 1350px;
     }
 
     .left-pic img {
@@ -50,7 +50,7 @@
     .right-text p {
         color: #000;
         font-size: 15px;
-        margin: 40px 20px 20px 20px;
+        margin: 80px 20px 20px 20px;
         text-align: justify;
         line-height: 20px;
     }
@@ -61,7 +61,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
 
     #family {
-        height: 2500px;
+        height: 2600px;
     }
 
     /*left, now top section*/
@@ -91,7 +91,7 @@
     .right-text p {
         color: #000;
         font-size: 23px;
-        margin: 20px 20px 20px 20px;
+        margin: 80px 20px 20px 20px;
         text-align: justify;
         line-height: 35px;
     }
