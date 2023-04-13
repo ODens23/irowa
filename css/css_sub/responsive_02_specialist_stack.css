@@ -36,6 +36,10 @@
 /* Medium Device (Landscape tablets and Medium Laptops) */
 @media (min-width: 992px) and (max-width: 1199px) {
 
+    #spec {
+        height: 2400px;
+    }
+
     .left-pic img {
         width: 590px;
         height: 285px;
@@ -56,6 +60,10 @@
 /* Small Device (Portable tablets and Small Laptops) */
 @media (min-width: 768px) and (max-width: 991px) {
 
+    #spec {
+        height: 6000px;
+    }
+
     /*left, now top section*/
     #spec-content .col-md-4 {
         width: 900px;
@@ -65,8 +73,8 @@
         position: relative;
         width: 400px;
         height: 300px;
-        top: 60px;
-        left: -10px;
+        top: -18px;
+        left: -16px;
         -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
         box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
     }
@@ -76,7 +84,7 @@
         position: relative;
         height: 230px;
         width: 800px;
-        top: 50px;
+        top: -17px;
         background: #fff;
     }
         
