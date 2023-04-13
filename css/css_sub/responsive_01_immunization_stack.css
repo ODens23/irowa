@@ -37,7 +37,7 @@
 @media (min-width: 992px) and (max-width: 1199px) {
 
     #immz {
-        height: 1700px;
+        height: 1800px;
     }
 
     .left-pic img {
@@ -61,7 +61,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
     
     #immz {
-        height: 3200px;
+        height: 3300px;
     }
 
     /*left, now top section*/

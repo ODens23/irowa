@@ -38,7 +38,7 @@
 @media (min-width: 992px) and (max-width: 1199px) {
 
     #lab {
-        height: 1250px;
+        height: 1350px;
     }
 
     .left-pic img {
@@ -62,7 +62,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
 
     #lab {
-        height: 2400px;
+        height: 2500px;
     }
 
     /*left, now top section*/

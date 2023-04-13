@@ -78,7 +78,7 @@ section {
 ========================================= */
 #spec {
     background: none;
-    height: 100%;
+    height: 3800px;
 }
 
 #spec-bg-pic {
@@ -130,8 +130,8 @@ section {
 
 .right-text h1 {
     color: #000;
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 48px;
+    font-weight: 200;
     margin: 50px 0 20px 20px;
 }
 
@@ -139,6 +139,8 @@ section {
     color: #000;
     font-size: 15px;
     margin: 80px 20px 20px 20px;
+    text-align: justify;
+    line-height: 30px;
 }
 
 /*#spec-btn {
