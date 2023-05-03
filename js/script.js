@@ -75,47 +75,7 @@ $(function () {
     });
 });
 
-/* ======================================
-|   |   |   Google Map
-========================================= */
-$(window).on('load', function() {
 
-    //Map Variables
-    var addressString = '2, Oliha Lane, Off Benin Sapele Road, Opposite Police Microfinance Bank, P.O Box, 12254, Benin City, Edo State';
-    var myLatlng = {lat: 6.32066, lng: 5.62776};
-
-    //1. Render Map
-    var	map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 11,
-        center: myLatlng
-    });
-
-    //2. Add Marker
-    var marker = new google.maps.Marker({
-        position: myLatlng,
-        map: map,
-        title: "Irowa Medical Centre"
-    });
-
-    //3. Add Info Window
-    var infowindow = new google.maps.InfoWindow({
-        content: addressString
-    });
-
-    //4. Show info window when user clicks marker
-    marker.addListener('click', function() {
-        infowindow.open(map, marker);
-    });
-
-    //5. Resize function
-    google.maps.event.addDomListener(window, 'resize', function() {
-	
-        var center = map.getCenter();
-        google.maps.event.trigger(map, 'resize');
-        map.setCenter(center);
-    });
-
-});
 /* ======================================
 |   |   |   Navigation
 ========================================= */
