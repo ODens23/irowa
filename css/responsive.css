@@ -186,7 +186,7 @@
     }
     
     #home-text p {
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 250;
     }
 
@@ -235,6 +235,7 @@
 
     /*About section 2 - Mission, Vission and Values*/
     #about-02 .col-md-4 {
+        top: 50px;
         height: 400px;
         width: 800px;
     }
@@ -264,15 +265,23 @@
 /* ======================================
 |   |   |   Team
 ========================================= */
+
 #team .col-md-6 {
-    height: 400px;
+    height: 550px;
     width: 800px;
     margin-bottom: 50px;
+}
+.team-text {
+    bottom: 20px;
 }
 
 .col-md-6 p {
     font-size: 24px;
     line-height: 50px;
+}
+
+#team-members {
+    top: 30px;
 }
 
 .team-member {
@@ -329,6 +338,8 @@ ul.social-list li a i {
 /* ======================================
 |   |   |   Services section
 ========================================= */
+
+
 
 #service-01 img {
     margin: 10px 0;
