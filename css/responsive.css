@@ -90,7 +90,7 @@
     }
     
     .all-navigation p {
-        font-size: 12px;
+        font-size: 15px;
         margin-top: 10px;
     }
 
@@ -136,6 +136,14 @@
     #services-tabs .tab-bg {
         padding: 26.5px 30px;
         min-height: 100px;
+    }
+
+    #service-tab-2 p {
+        margin-bottom: 40px;
+    }
+
+    #service-tab-4 p {
+        margin-bottom: 40px;
     }
     
     .service-tab p {
@@ -186,7 +194,7 @@
     }
     
     #home-text p {
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 250;
     }
 
@@ -235,6 +243,7 @@
 
     /*About section 2 - Mission, Vission and Values*/
     #about-02 .col-md-4 {
+        top: 50px;
         height: 400px;
         width: 800px;
     }
@@ -264,15 +273,23 @@
 /* ======================================
 |   |   |   Team
 ========================================= */
+
 #team .col-md-6 {
-    height: 400px;
+    height: 550px;
     width: 800px;
     margin-bottom: 50px;
+}
+.team-text {
+    bottom: 20px;
 }
 
 .col-md-6 p {
     font-size: 24px;
     line-height: 50px;
+}
+
+#team-members {
+    top: 30px;
 }
 
 .team-member {
@@ -332,20 +349,22 @@ ul.social-list li a i {
 
 #service-01 img {
     margin: 10px 0;
-    height: 500px;
-    width: 800px;
+    height: 600px;
+    width: 850px;
     padding-bottom: 120px;
 }
 
 #service-01 .col-md-7 {
-    height: 400px;
+    height: 500px;
     width: 700px;
+    margin-bottom: 20px;
 }
 
 /*Services section - Left*/
 #service-01 .col-md-5 {
     height: 400px;
     width: 700px;
+    margin-bottom: 100px;
 }
 
 .service {
@@ -447,6 +466,10 @@ ul.social-list li a i {
 }
 
 /*Blog Section*/
+#blog {
+    height: 600px;
+}
+
 #blog .col-md-5 {
     right: 80px;
 }
@@ -458,6 +481,10 @@ ul.social-list li a i {
     bottom: 300px;
 }
 
+.blog-post {
+    margin-top: -30px;
+}
+
 #blog-left p {
     margin: 30px 0;
     font-size: 23px;
@@ -467,6 +494,7 @@ ul.social-list li a i {
 #blog-btn a {
     margin: 0;
     font-size: 18px;
+    margin-top: 50px;
 }
 
 .blog-post h4 {
@@ -482,6 +510,50 @@ ul.social-list li a i {
 }
 
 .blog-post a {
+    font-size: 18px;
+}
+
+/*Bookings Section*/
+#bookings .col-md-5 {
+    right: 80px;
+}
+
+#bookings .col-md-7 {
+    height: 100px;
+    width: 630px;
+    left: 220px;
+    bottom: 300px;
+}
+
+.bookings-post {
+    margin-top: -30px;
+}
+
+#bookings-left p {
+    margin: 30px 0;
+    font-size: 23px;
+    line-height: 40px;
+}
+    
+#bookings-btn a {
+    margin: 0;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.bookings-post h4 {
+    line-height: 40px;
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+.bookings-post p {
+    line-height: 40px;
+    margin: 0;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.bookings-post a {
     font-size: 18px;
 }
 
@@ -573,7 +645,11 @@ ul.office-details li {
 
 /*Google Map*/
 #map {
-    height: 700px;
+    height: 1000px;
+}
+
+#google-map iframe {
+    height: 750px;
 }
 
 
