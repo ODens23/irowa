@@ -1,0 +1,208 @@
+/* ======================================
+|   |   |  Mobile Menu
+========================================= */
+
+.navbar {
+    position: relative;
+    top: 25px;
+}
+
+.navbar-brand img {
+    position: relative;
+    left: 10px;
+    width: 110px;
+    height: 28px;
+}
+
+.collapse {
+    position: relative;
+    left: 100px;
+    top: 10px;
+}
+
+.collapse ul li a {
+    font-size: 13px;
+}
+
+
+/*==========================================
+|   |   Bootstrap 3 Media Queries
+============================================*/
+
+/* Large Device (Desktop and Laptop) */
+@media (min-width: 1200px) {
+}
+
+/* Medium Device (Landscape tablets and Medium Laptops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    #immz {
+        height: 1800px;
+    }
+
+    .left-pic img {
+        width: 590px;
+        height: 285px;
+        -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    }
+
+    .right-text p {
+        color: #000;
+        font-size: 15px;
+        margin: 80px 20px 20px 20px;
+        text-align: justify;
+        line-height: 20px;
+    }
+
+}
+
+/* Small Device (Portable tablets and Small Laptops) */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    #immz {
+        height: 3300px;
+    }
+
+    /*left, now top section*/
+    #immz-content .col-md-4 {
+        width: 900px;
+    }
+    .left-pic img {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        top: -20px;
+        left: -30px;
+        -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    }
+    
+    /*right, now down side*/
+    #right-side {
+        position: relative;
+        height: 230px;
+        width: 800px;
+        top: 10px;
+        background: #fff;
+    }
+    
+    .right-text p {
+        color: #000;
+        font-size: 23px;
+        margin: 80px 20px 20px 20px;
+        text-align: justify;
+        line-height: 35px;
+    }
+
+/*Contact*/
+/*Contact Left, now up*/
+#contact-left .col-md-6 {
+    height: 400px;
+    width: 700px;
+    position: relative;
+    left: -60px;
+}
+#contact-left .vertical-heading h2 {
+    position: relative;
+    left: -60px;
+    margin-top: 70px;
+}
+#contact-left p {
+    position: relative;
+    left: -60px;  
+}
+
+.office h4 {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#contact-left p {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+ul.office-details li i {
+    font-size: 23px;
+}
+
+ul.office-details li {
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.qrcode img {
+    width: 250px;
+    position: relative;
+    top: -400px;
+    left: 600px;
+}
+
+/*Contact right, now down*/
+#contact {
+    height: 1490px;
+}
+
+#contact-right {
+    height: 750px;
+    width: 900px;
+    position: relative;
+    top: 600px;
+    right: 460px; 
+}
+
+#contact-right h4 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+#contact-right p {
+    font-size: 23px;
+    margin-bottom: 20px;
+    text-align: justify;
+    line-height: 35px;
+}
+
+#contact-right form input.form-control {
+    font-size: 23px;
+    min-height: 50px;
+}
+
+#contact-right form textarea.form-control {
+    min-height: 200px;
+    font-size: 23px;
+}
+
+#submit-btn a {
+    margin: 0;
+    font-size: 18px;
+}
+
+/*Footer*/
+footer p {
+    font-size: 19px;
+}
+
+
+}
+
+/* Extra small Device (Landscape phones and Portrait Tablets) */
+@media (max-width: 767px) {
+
+    /* Mobile Menu
+    #mobile-nav-open-btn {
+        display: block;
+    }*/
+}
+
+/* Extra small Device (Portrait phones and Smaller devices) */
+@media (max-width: 480px) {
+}
+
+/* Extra small Device (Landscape phones and Portrait Tablets) */
+@media (max-width: 320px) {
+
+}
