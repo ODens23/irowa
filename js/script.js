@@ -16,6 +16,30 @@ $(window).on('load', function () {
 });
 
 /* ======================================
+|   |   |   Live
+========================================= */
+$(function () {
+    $("#live-members").owlCarousel({
+        items: 1,
+        autoplay: true,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true,
+        nav: true,
+        responsive: {
+            //breakpoint from 0 up
+            0: {
+                items: 1
+            },
+            //breakpoint from 480 up
+            480: {
+                items: 1
+            }
+        }
+    });
+});
+
+/* ======================================
 |   |   |   Team
 ========================================= */
 $(function () {
