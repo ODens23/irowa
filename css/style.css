@@ -356,6 +356,39 @@ section {
 }
 
 /* ======================================
+|   |   |   Live section
+========================================= */
+
+#live .vertical-heading {
+    min-height: 100px;
+}
+
+.live-text p {
+    text-align: justify;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.live-member {
+    margin: 5px;
+    position: relative;
+    height: 400px;
+    width: 500px;
+}
+
+.vertical-heading h2 {
+    margin-left: 0px;
+}
+
+#live-members {
+    margin: 15px, 15px;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+
+/* ======================================
 |   |   |   About 2
 ========================================= */
 #about-02 {
