@@ -306,9 +306,9 @@ section {
     padding: 30px 0px;
 }
 
-/* ================================----==========
+/*================================----==========
 |   |   |   Vertical Headings - About Section
-=============================================== */
+===============================================*/
 .vertical-heading h2 {
     margin: 0 0 0 0;
     font-size: 20px;
@@ -325,6 +325,10 @@ section {
 /* ======================================
 |   |   |   About 1
 ========================================= */
+#about {
+    margin-top: 100px;
+}
+
 #about-right p {
     margin-bottom: 30px;
     text-align: justify;
@@ -358,22 +362,12 @@ section {
 /* ======================================
 |   |   |   Live section
 ========================================= */
+#live{
+    margin: 100px 0;
+}
 
 #live .vertical-heading {
     min-height: 100px;
-}
-
-.live-text p {
-    text-align: justify;
-    font-size: 25px;
-    line-height: 30px;
-}
-
-.live-member {
-    margin: 5px;
-    position: relative;
-    height: 400px;
-    width: 500px;
 }
 
 .vertical-heading h2 {
@@ -387,12 +381,98 @@ section {
     border-radius: 20px;
 }
 
+.live-text p {
+    text-align: justify;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.live-member1 {
+    margin: 5px;
+    position: relative;
+    height: 700px;
+    width: 98.5%;
+}
+
+.live-member1 p {
+    position: relative;   
+    top: -286px;
+    left: 130px;
+    font-weight: 900;
+    font-size: 30px;
+    color: #000;
+}
+
+.live-member2 {
+    margin: 5px;
+    position: relative;
+    height: 700px;
+    width: 98.5%;
+}
+
+.live-member2 p {
+    position: relative;   
+    top: -370px;
+    left: 90px;
+    font-weight: 900;
+    font-size: 25px;
+    color: #000;
+    line-height: 35px;
+    width: 930px;
+    text-align: center;
+}
+
+.live-member2 p span {
+    color: blue;
+    font-size: 30px;
+}
+
+.live-member3 {
+    margin: 5px;
+    position: relative;
+    top: -60px;
+    height: 700px;
+    width: 98.5%;
+}
+
+.live-member3 p {
+    position: relative;   
+    top: -286px;
+    left: 220px;
+    font-weight: 900;
+    font-size: 26px;
+    color: #000;
+}
+
+.mail_btn {
+    position: relative;
+    top: -330px;
+    left: 700px;
+    margin: 20px 20px 30px 20px;
+}
+
+.mail_btn a {
+    text-decoration: none;
+    padding: 10px 90px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #f4c613;
+}
+
+.mail_btn a:hover,
+.mail_btn a:focus {
+    color: #fff;
+    background-color: blue;
+    border: 1px solid #000;
+}
+
 
 /* ======================================
 |   |   |   About 2
 ========================================= */
 #about-02 {
     background-color: #f4f4f4;
+    margin-bottom: 100px;
 }
 
 .about-item {
@@ -461,6 +541,9 @@ section {
 /* ======================================
 |   |   |   Team
 ========================================= */
+#team {
+    padding: 50px 0;
+}
 
 #team .vertical-heading {
     min-height: 100px;
@@ -581,6 +664,9 @@ ul.social-list li:nth-child(2) a:hover {
 /* ======================================
 |   |   |   Service Section
 ========================================= */
+#service {
+    padding-top: 100px;
+}
 
 #service-01 img {
     margin: 10px 0;
@@ -696,6 +782,7 @@ ul.social-list li:nth-child(2) a:hover {
     background: #fff;
     padding-bottom: 45px;
     overflow: visible;
+    padding-bottom: 100px;
 }
 
 #testimonials .vertical-heading {
@@ -766,11 +853,12 @@ ul.social-list li:nth-child(2) a:hover {
 }
 
 #stats .content-box-md {
-    background: rgba(0, 0, 0, 0.81)
+    background: rgba(0, 0, 0, 0.81);
+    
 }
 
 #stats .vertical-heading {
-    margin-bottom: 50px;
+    margin: 50px 0;
 }
 
 #stats .vertical-heading h2 {
@@ -819,7 +907,7 @@ ul.social-list li:nth-child(2) a:hover {
 ========================================= */
 #blog {
     background: #f4f4f4;
-    padding: 30px 0;
+    padding: 80px 0;
 }
 #blog-left p {
     margin: 25px 0;
@@ -866,7 +954,7 @@ ul.social-list li:nth-child(2) a:hover {
 ========================================= */
 #bookings {
     background: #A6E029;
-    padding: 30px 0;
+    padding: 80px 0;
 }
 #bookings-left span {
     color: #fff;
@@ -915,6 +1003,9 @@ ul.social-list li:nth-child(2) a:hover {
 /* ======================================
 |   |   |  Contact
 ========================================= */
+#contact {
+    padding: 100px 0;
+}
 /*Contact Left*/
 #contact-left p {
     margin: 0 0 15px 0;

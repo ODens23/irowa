@@ -1,0 +1,321 @@
+/*  ======================================
+    Irowa Medical Centre Style Themes    
+    ------------------------------------------------------
+    Fonts: Raleway and Open Sans (and default 'san serif')
+    ------------------------------------------------------
+    Colors:
+        Moon Yellow:	#f4c613
+        Grey:			#212226
+        White:          #fff   
+        White Smoke:	#f4f4f4
+        Black:			#000
+        Sheen Green #A6E029
+        Yellow Green colours    #41B00A
+
+    ====================================== */
+
+/* ======================================
+|    |   |   html, body
+========================================= */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    color: #212226;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+section {
+    background: #fff;
+    overflow: hidden;
+}
+
+/* ======================================
+|    |   |   Preloader
+========================================= */
+
+#preloader {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+#status {
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -35px;
+    margin-top: -35px;
+    background-image: url("../img2/preloader/preloader.gif")
+}
+
+/* ======================================
+|   |   |   Home
+========================================= */
+#conference {
+    background: none;
+    height: 100%;
+}
+
+#conference-bg-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    background: url("../img2/background/conference_hall_view.png") no-repeat;
+    background-size: cover;
+}
+
+#conference-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+#conference-content .col-md-8 {
+    padding-left: 0;
+    right: 15px;
+    top: -30px;
+}
+
+.left-pic img {
+    width: 590px;
+    height: 270px;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+#right-side {
+    width: 100%;
+    height: 100%;
+    display: table;
+    background: #fff;
+}
+
+.right-text h1 {
+    color: #000;
+    font-size: 48px;
+    font-weight: 200;
+    margin: 50px 0 20px 20px;
+}
+
+.right-text h2 {
+    color: #000;
+    font-size: 25px;
+    font-weight: 200;
+    margin: 50px 0 20px 20px;
+}
+
+.right-text p {
+    color: #000;
+    font-size: 14px;
+    margin: 10px 20px 20px 20px;
+    text-align: justify;
+}
+
+
+.mail_btn {
+    position: relative;
+    top: 10px;
+    margin: 20px 20px 30px 20px;
+}
+
+.mail_btn a {
+    text-decoration: none;
+    padding: 10px 90px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #f4c613;
+}
+
+.mail_btn a:hover,
+.mail_btn a:focus {
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+
+/* ======================================
+|   |   |   Buttons
+========================================*/
+.btn-general {
+    font-family: "Raleway", sans-serif;
+    border-radius: 28px;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin: 0, 4px;
+    padding: 9px 36px 9px 36px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.btn-yellow {
+    color: #fff;
+    border: 1px solid #f4c613;
+    background-color: #f4c613;
+}
+
+.btn-yellow:hover,
+.btn-yellow:focus {
+    color: #fff;
+    background-color: #212226;
+    border: 1px solid #212226;
+}
+
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 3px 15px;
+    border-radius: 4px;
+    font-size: 22px;
+}
+
+/* ======================================
+|   |   |   Content
+========================================= */
+.content-box-lg {
+    padding: 100px 0;
+}
+
+.content-box-md {
+    padding: 30px 0px;
+}
+
+/* ================================----==========
+|   |   |   Vertical Headings - About Section
+=============================================== */
+.vertical-heading h2 {
+    margin: 0 0 0 0;
+    font-size: 20px;
+    line-height: 35px;
+    margin-left: 1px;
+}
+
+.vertical-heading span {
+    color: #f4c613;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+/* ======================================
+|   |   |  Contact
+========================================= */
+/*Contact Left*/
+#contact-left p {
+    margin: 10px 0 10px 0;
+    font-size: 14px;
+}
+ul.office-details {
+    list-style: none;
+    padding: 0;
+}
+ul.office-details li {
+    font-family: "open sans", "sans-serif";
+    margin-top: 12px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-size: 13px;
+}
+ul.office-details li i {
+    font-size: 20px;
+    width: 35px;
+}
+
+/*Contact Right*/
+#contact-right {
+    padding: 20px;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+#contact-right h4 {
+    font-size: 24px;
+}
+#contact-right p {
+    margin-bottom: 10px;
+}
+#contact-right form .form-control {
+    font-family: "Open sans", "Sans Serif";
+    padding: 10px 15px;
+    font-size: 12px;
+    line-height: 24px;
+}
+#contact-right form textarea.form-control {
+    min-height: 150px;
+}
+
+/* ======================================
+|   |   |  Footer
+========================================= */
+footer {
+    background: #212226;
+    padding: 20px;
+}
+footer p {
+    color: #fff;
+    line-height: 20px;
+    margin: 0;
+}
+footer p span {
+    color: #f4c613;
+}
+
+/* ======================================
+|   |   |  Navigation
+========================================= */
+.navbar {
+    padding: 5px 0;
+}
+.site-nav-wrapper {
+    padding: 0 15px;
+}
+ul.navbar-nav > li > a {
+    font-family: "Raleway", sans-serif;
+    color:#fff;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+ul.navbar-nav > li > a:hover,
+ul.navbar-nav > li > a:focus {
+    background: none;
+    color: #f4c613;
+}
